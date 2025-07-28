@@ -1,0 +1,13 @@
+# .dockerignore
+node_modules
+build
+.dockerignore
+Dockerfile
+.git
+.gitignore
+*.log
+*.env
+*.pyc
+__pycache__/
+venv
+*.sqlite3
