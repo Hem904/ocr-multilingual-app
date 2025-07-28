@@ -15,8 +15,6 @@ def pre_process_img(img_path: str) -> np.ndarray:
     height = int(thresh.shape[0] * scale_percent / 100)
     resized = cv2.resize(thresh, (width, height), interpolation = cv2.INTER_AREA)
     
-
-
     return resized
 
 def perform_ocr(image_path: str, lang: str = "hin") -> str:
